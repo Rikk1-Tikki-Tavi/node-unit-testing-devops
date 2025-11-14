@@ -24,13 +24,13 @@ describe('User Authentication Validator Tests', () => {
         });
     });
 
-    describe('validateEmail - Intentional Break Test', () => {
-        test('BREAK TEST: Intentionally expecting wrong output', () => {
-            // This test is designed to fail on purpose
-            // Comment out this test for passing CI/CD run
-            expect(validateEmail('valid@email.com')).toBe(false);
-        });
-    });
+    // describe('validateEmail - Intentional Break Test', () => {
+    //     test('BREAK TEST: Intentionally expecting wrong output', () => {
+    //         // This test is designed to fail on purpose
+    //         // Comment out this test for passing CI/CD run
+    //         expect(validateEmail('valid@email.com')).toBe(false);
+    //     });
+    // });
 
     // ========== PASSWORD VALIDATION TESTS ==========
     
