@@ -1,0 +1,19 @@
+{
+  "name": "node-unit-demo",
+  "version": "1.0.0",
+  "description": "Unit Testing and DevOps Assignment - User Authentication Validator",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "authentication",
+    "validation",
+    "unit-testing"
+  ],
+  "author": "Jeffrey William",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
